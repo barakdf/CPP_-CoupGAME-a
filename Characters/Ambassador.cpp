@@ -26,3 +26,7 @@ void Ambassador::coup(const Player &target) {
 void Ambassador::transfer(Player &from, Player &to) {
 
 }
+
+void Ambassador::Block(const Player &attacker) {
+
+}

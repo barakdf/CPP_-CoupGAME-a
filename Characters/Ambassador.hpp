@@ -21,7 +21,11 @@ public:
     void coup(const Player &target) override;
 
     /** Special Skills */
+    /** Offensive*/
     void transfer(Player &from, Player &to);
+
+    /** Defensive */
+    void Block(const Player &attacker);
 };
 
 
