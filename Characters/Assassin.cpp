@@ -4,8 +4,9 @@
 
 #include "Assassin.hpp"
 
-Assassin::Assassin (coup::Game game,const std::string &name):coin(0) {
-    game.add(name);
+Assassin::Assassin (coup::Game &game,const std::string &name):coin(0) {
+    this->game = &game;
+    this->game->add(name);
 }
 int Assassin::coins() const {
     return this->coin;

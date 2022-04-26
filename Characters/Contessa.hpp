@@ -2,17 +2,18 @@
 // Created by barak on 25/04/2022.
 //
 
-#ifndef CPP__COUPGAME_A_CAPTAIN_HPP
-#define CPP__COUPGAME_A_CAPTAIN_HPP
+#ifndef CPP__COUPGAME_A_CONTESSA_HPP
+#define CPP__COUPGAME_A_CONTESSA_HPP
 
 
-#include "Player.hpp"
+#include "../Player.hpp"
 
-class Captain: public Player {
+class Contessa: public Player {
 private:
     int coin;
+    coup::Game *game;
 public:
-    Captain (coup::Game game, const std::string &name);
+    Contessa (coup::Game &game,const std::string &name);
     int coins() const override;
     void income() override;
     void foreign_aid() override;
@@ -21,8 +22,7 @@ public:
 
     /** Special Skills */
     void block(const Player &attacker);
-    void steal(Player &victim);
 };
 
 
-#endif //CPP__COUPGAME_A_CAPTAIN_HPP
+#endif //CPP__COUPGAME_A_CONTESSA_HPP

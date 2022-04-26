@@ -4,8 +4,9 @@
 
 #include "Captain.hpp"
 
-Captain::Captain (coup::Game game, const std::string &name):coin(0) {
-    game.add(name);
+Captain::Captain (coup::Game &game, const std::string &name):coin(0) {
+    this->game = &game;
+    this->game->add(name);
 }
 int Captain::coins() const {
     return this->coin;

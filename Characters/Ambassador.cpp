@@ -3,8 +3,9 @@
 //
 
 #include "Ambassador.hpp"
-Ambassador::Ambassador (coup::Game game,const std::string &name):coin(0) {
-    game.add(name);
+Ambassador::Ambassador (coup::Game &game,const std::string &name):coin(0) {
+    this->game = &game;
+    this->game->add(name);
 }
 int Ambassador::coins() const {
     return this->coin;

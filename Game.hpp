@@ -24,12 +24,15 @@ namespace coup {
         size_t p_turn;
         size_t m_size;
         std::vector<std::string> *members;
+
     public:
         Game() : p_turn(0), m_size(0), members(new std::vector<std::string>) {}
 
         void add(const std::string &name);
 
         std::string turn() const;
+
+
 
         std::vector<std::string> players() const;
 

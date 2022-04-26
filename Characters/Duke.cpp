@@ -4,8 +4,9 @@
 
 #include "Duke.hpp"
 
-Duke::Duke (coup::Game game, const std::string& name):coin(0) {
-    game.add(name);
+Duke::Duke (coup::Game &game, const std::string& name):coin(0) {
+    this->game = &game;
+    this->game->add(name);
 }
 
 int Duke::coins() const {
@@ -13,6 +14,9 @@ int Duke::coins() const {
 }
 
 void Duke::income() {
+    this->coin++;
+
+
 
 }
 void Duke::foreign_aid() {

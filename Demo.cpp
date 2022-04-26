@@ -6,11 +6,11 @@
  */
 
 #include "Player.hpp"
-#include "Duke.hpp"
-#include "Assassin.hpp"
-#include "Ambassador.hpp"
-#include "Captain.hpp"
-#include "Contessa.hpp"
+#include "Characters/Duke.hpp"
+#include "Characters/Assassin.hpp"
+#include "Characters/Ambassador.hpp"
+#include "Characters/Captain.hpp"
+#include "Characters/Contessa.hpp"
 #include "Game.hpp"
 
 using namespace coup;
