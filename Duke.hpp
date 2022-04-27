@@ -6,7 +6,7 @@
 #define CPP__COUPGAME_A_DUKE_HPP
 
 //#include "Game.hpp"
-#include "../Player.hpp"
+#include "Player.hpp"
 
 class Duke:public Player {
 private:
@@ -14,9 +14,7 @@ private:
     coup::Game *game;
 public:
     Duke (coup::Game &game, const std::string &name);
-    int coins() const override;
-    void income() override;
-    void foreign_aid() override;
+
     std::string role() const override;
     void coup(const Player &target) override;
 

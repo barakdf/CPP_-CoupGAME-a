@@ -8,16 +8,6 @@ Contessa::Contessa (coup::Game &game,const std::string &name):coin(0) {
     this->game = &game;
     this->game->add(name);
 }
-
-int Contessa::coins() const {
-    return this->coin;
-}
-void Contessa::income() {
-
-}
-void Contessa::foreign_aid() {
-
-}
 std::string Contessa::role() const {
     return "Contessa";
 }

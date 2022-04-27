@@ -5,12 +5,16 @@
 #include "Player.hpp"
 
 int Player::coins() const {
-    return 0;
+    return coin;
 }
 
-void Player::income() {}
+void Player::income() {
+    this->coin++;
+}
 
-void Player::foreign_aid() {}
+void Player::foreign_aid() {
+    this->coin += 2;
+}
 
 std::string Player::role() const {
     return nullptr;

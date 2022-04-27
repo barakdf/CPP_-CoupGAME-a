@@ -7,10 +7,12 @@
 #include <iostream>
 #include "Game.hpp"
 class Player {
+protected:
+    int coin = 0;
 public:
-    virtual int coins() const = 0;
-    virtual void income() = 0;
-    virtual void foreign_aid() = 0;
+    int coins() const;
+    void income();
+    void foreign_aid();
     virtual std::string role() const = 0;
     virtual void coup(const Player &target) = 0;
 };

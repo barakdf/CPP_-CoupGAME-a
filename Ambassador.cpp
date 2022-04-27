@@ -7,15 +7,6 @@ Ambassador::Ambassador (coup::Game &game,const std::string &name):coin(0) {
     this->game = &game;
     this->game->add(name);
 }
-int Ambassador::coins() const {
-    return this->coin;
-}
-void Ambassador::income(){
-
-}
-void Ambassador::foreign_aid(){
-
-}
 std::string Ambassador::role() const {
     return "Ambassador";
 }

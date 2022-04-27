@@ -8,20 +8,6 @@ Duke::Duke (coup::Game &game, const std::string& name):coin(0) {
     this->game = &game;
     this->game->add(name);
 }
-
-int Duke::coins() const {
-    return this->coin;
-}
-
-void Duke::income() {
-    this->coin++;
-
-
-
-}
-void Duke::foreign_aid() {
-
-}
 std::string Duke::role() const {
     return "Duke";
 }

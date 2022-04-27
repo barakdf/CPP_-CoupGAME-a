@@ -6,7 +6,7 @@
 #define CPP__COUPGAME_A_AMBASSADOR_HPP
 
 
-#include "../Player.hpp"
+#include "Player.hpp"
 
 class Ambassador: public Player {
 private:
@@ -14,9 +14,6 @@ private:
     coup::Game *game;
 public:
     Ambassador (coup::Game &game,const std::string &name);
-    int coins() const override;
-    void income() override;
-    void foreign_aid() override;
     std::string role() const override;
     void coup(const Player &target) override;
 

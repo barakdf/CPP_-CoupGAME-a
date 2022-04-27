@@ -5,7 +5,7 @@
 #ifndef CPP__COUPGAME_A_ASSASSIN_HPP
 #define CPP__COUPGAME_A_ASSASSIN_HPP
 
-#include "../Player.hpp"
+#include "Player.hpp"
 
 class Assassin: public Player {
 
@@ -14,9 +14,7 @@ private:
     coup::Game *game;
 public:
     Assassin (coup::Game &game,const std::string &name);
-    int coins() const override;
-    void income() override;
-    void foreign_aid() override;
+
     std::string role() const override;
     void coup(const Player &target) override;
 
