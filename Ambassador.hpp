@@ -9,13 +9,10 @@
 #include "Player.hpp"
 
 class Ambassador: public Player {
-private:
-    int coin;
-    coup::Game *game;
 public:
-    Ambassador (coup::Game &game,const std::string &name);
+    Ambassador(coup::Game &game, const std::string &name): Player(game,name){}
     std::string role() const override;
-    void coup(const Player &target) override;
+//    void coup(const Player &target) override;
 
     /** Special Skills */
     /** Offensive*/

@@ -4,6 +4,15 @@
 
 #include "Player.hpp"
 
+Player::Player(coup::Game &games, const std::string &name):coin(0), name(name) {
+    this->game = games;
+    this->game.add(name);
+}
+
+std::string Player::get_name() const{
+    return this->name;
+}
+
 int Player::coins() const {
     return coin;
 }
@@ -20,4 +29,6 @@ std::string Player::role() const {
     return nullptr;
 }
 
-void Player::coup(const Player &target) {}
+void Player::coup(const Player &target) {
+    this->game.coup_player(target.get_name());
+}

@@ -8,15 +8,11 @@
 #include "Player.hpp"
 
 class Assassin: public Player {
-
-private:
-    int coin;
-    coup::Game *game;
 public:
-    Assassin (coup::Game &game,const std::string &name);
+   Assassin (coup::Game &game, const std::string &name): Player(game,name){}
 
     std::string role() const override;
-    void coup(const Player &target) override;
+//    void coup(const Player &target) override;
 
     /** Special Skills */
 

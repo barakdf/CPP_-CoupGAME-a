@@ -82,37 +82,37 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Ambassador.cpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.cpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Ambassador.hpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Assassin.cpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.cpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Assassin.hpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Captain.cpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.cpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Captain.hpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Contessa.cpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.cpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Contessa.hpp">
-			<Option target="CPP__CoupGAME_a"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Duke.cpp">
-			<Option target="CPP__CoupGAME_a"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Characters/Duke.hpp">
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Demo.cpp">
+			<Option target="CPP__CoupGAME_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.cpp">
+			<Option target="CPP__CoupGAME_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.cpp">

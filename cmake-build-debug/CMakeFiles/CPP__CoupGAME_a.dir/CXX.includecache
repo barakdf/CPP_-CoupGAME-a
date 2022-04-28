@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Demo.cpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+Duke.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.hpp
+Assassin.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.hpp
+Ambassador.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.hpp
+Captain.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.hpp
+Contessa.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.hpp
+Game.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
+iostream
+-
+stdexcept
+-
+vector
+-
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
+iostream
+-
+vector
+-
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+iostream
+-
+Game.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
+

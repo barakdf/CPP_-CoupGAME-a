@@ -9,14 +9,14 @@
 #include "Player.hpp"
 
 class Contessa: public Player {
-private:
-    int coin;
-    coup::Game *game;
+//private:
+//    int coin;
+//    coup::Game *game;
 public:
-    Contessa (coup::Game &game,const std::string &name);
+   Contessa (coup::Game &game, const std::string &name): Player(game,name){}
 
     std::string role() const override;
-    void coup(const Player &target) override;
+//    void coup(const Player &target) override;
 
     /** Special Skills */
     void block(const Player &attacker);

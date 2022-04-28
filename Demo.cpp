@@ -23,6 +23,12 @@ using namespace std;
 int main() {
 
 	Game game_1{};
+//    /** MY TEST */
+//    Duke duk{game_1,"test1"};
+//
+//
+//
+//    /** END MY TEST*/
 
 	/* This player drew the "Duke" card, his name is Moshe
 	and he is a player in game_1 */

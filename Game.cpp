@@ -6,8 +6,9 @@
 
 using namespace coup;
 
-void Game::add(const std::string &name) {
+void Game::add(const std::string& name) {
     this->members->push_back(name);
+    initialized_players++;
 }
 
 std::string Game::turn() const {
@@ -24,5 +25,13 @@ std::string Game::winner() const {
 }
 
 Game::~Game() {
-    delete members;
+    if (initialized_players == 0) {
+        delete (this->members);
+    } else {
+        initialized_players--;
+    }
+}
+
+void Game::coup_player(const std::string &name) {
+
 }

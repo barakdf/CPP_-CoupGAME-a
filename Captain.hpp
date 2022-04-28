@@ -9,14 +9,11 @@
 #include "Player.hpp"
 
 class Captain: public Player {
-private:
-    int coin;
-    coup::Game *game;
 public:
-    Captain (coup::Game &game, const std::string &name);
+   Captain (coup::Game &game, const std::string &name): Player(game,name){}
 
     std::string role() const override;
-    void coup(const Player &target) override;
+//    void coup(const Player &target) override;
 
     /** Special Skills */
     void block(const Player &attacker);

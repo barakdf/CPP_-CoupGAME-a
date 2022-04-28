@@ -8,12 +8,16 @@
 #include "Game.hpp"
 class Player {
 protected:
-    int coin = 0;
+    int coin;
+    coup::Game game;
+    std::string name;
 public:
+    Player(coup::Game &game, const std::string &name);
     int coins() const;
     void income();
     void foreign_aid();
+    std::string get_name() const;
+    void coup(const Player &target);
     virtual std::string role() const = 0;
-    virtual void coup(const Player &target) = 0;
 };
 #endif //CPP__COUPGAME_A_PLAYER_HPP
