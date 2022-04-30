@@ -19,7 +19,7 @@ public:
     void transfer(Player &from, Player &to);
 
     /** Defensive */
-    void Block(const Player &attacker);
+    void block(const Player &attacker);
 };
 
 

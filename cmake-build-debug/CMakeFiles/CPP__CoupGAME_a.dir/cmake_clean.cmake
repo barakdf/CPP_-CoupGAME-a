@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CPP__CoupGAME_a.dir/Duke.cpp.o"
   "CMakeFiles/CPP__CoupGAME_a.dir/Game.cpp.o"
   "CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.o"
+  "CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o"
   "CPP__CoupGAME_a"
   "CPP__CoupGAME_a.pdb"
 )

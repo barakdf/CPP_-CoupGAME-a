@@ -21,5 +21,5 @@ void Duke::block(const Player &attacker) {
 }
 
 void Duke::tax() {
-
+    this->coin += 3;
 }

@@ -37,8 +37,14 @@ CMakeFiles/CPP__CoupGAME_a.dir/Duke.cpp.o: ../Player.hpp
 
 CMakeFiles/CPP__CoupGAME_a.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/CPP__CoupGAME_a.dir/Game.cpp.o: ../Game.hpp
+CMakeFiles/CPP__CoupGAME_a.dir/Game.cpp.o: ../Player.hpp
 
 CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.o: ../Game.hpp
 CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.o: ../Player.hpp
+
+CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o: ../Game.hpp
+CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o: ../Player.hpp
+CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o: ../Test.cpp
+CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o: ../doctest.h
 

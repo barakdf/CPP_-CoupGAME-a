@@ -16,6 +16,6 @@ void Ambassador::transfer(Player &from, Player &to) {
 
 }
 /** Defensive */
-void Ambassador::Block(const Player &attacker) {
+void Ambassador::block(const Player &attacker) {
 
 }

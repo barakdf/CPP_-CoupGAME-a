@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.cpp" "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/cmake-build-debug/CMakeFiles/CPP__CoupGAME_a.dir/Duke.cpp.o"
   "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.cpp" "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/cmake-build-debug/CMakeFiles/CPP__CoupGAME_a.dir/Game.cpp.o"
   "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.cpp" "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/cmake-build-debug/CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.o"
+  "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Test.cpp" "/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/cmake-build-debug/CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

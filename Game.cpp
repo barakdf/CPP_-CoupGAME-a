@@ -18,9 +18,7 @@ std::vector<std::string> Game::players() const{
     return *(this->members);
 }
 std::string Game::winner() const {
-    if (this->m_size != 1) {
-        throw;
-    }
+
     return this->players().at(0);
 }
 

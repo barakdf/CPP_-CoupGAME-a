@@ -6,17 +6,33 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.cpp
+Ambassador.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.hpp
+
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Ambassador.hpp
 Player.hpp
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.cpp
+Assassin.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.hpp
 
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Assassin.hpp
 Player.hpp
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
 
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.cpp
+Captain.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.hpp
+
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Captain.hpp
 Player.hpp
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.cpp
+Contessa.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.hpp
 
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Contessa.hpp
 Player.hpp
@@ -44,19 +60,123 @@ stdexcept
 vector
 -
 
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.cpp
+Duke.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.hpp
+
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Duke.hpp
 Player.hpp
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.cpp
+Game.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
 
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
 iostream
 -
 vector
 -
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.cpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
 
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
 iostream
 -
 Game.hpp
 /mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Test.cpp
+doctest.h
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/doctest.h
+Game.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Game.hpp
+Player.hpp
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp
+
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/doctest.h
+iosfwd
+-
+cstddef
+-
+ostream
+-
+ciso646
+-
+type_traits
+-
+doctest_fwd.h
+/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/doctest_fwd.h
+ctime
+-
+cmath
+-
+climits
+-
+math.h
+-
+new
+-
+cstdio
+-
+cstdlib
+-
+cstring
+-
+limits
+-
+utility
+-
+fstream
+-
+sstream
+-
+iostream
+-
+algorithm
+-
+iomanip
+-
+vector
+-
+atomic
+-
+mutex
+-
+set
+-
+map
+-
+exception
+-
+stdexcept
+-
+csignal
+-
+cfloat
+-
+cctype
+-
+cstdint
+-
+sys/types.h
+-
+unistd.h
+-
+sys/sysctl.h
+-
+AfxWin.h
+-
+Windows.h
+-
+io.h
+-
+sys/time.h
+-
+unistd.h
+-
 

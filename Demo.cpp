@@ -72,8 +72,8 @@ int main() {
 	// is income, which cannot be blocked by any role
 	captain.block(duke);
 
-	cout << duke.coins() << endl; // prints 2
-	cout << assassin.coins() << endl; // prints 3
+	cout << "duke " << duke.coins() << endl; // prints 2
+	cout << "assassin " << assassin.coins() << endl; // prints 3
 
 	// throws exception, the last operation duke performed
 	// is foreign aid, which cannot be blocked by contessa

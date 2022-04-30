@@ -339,6 +339,33 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles/CPP__CoupGAME_a.dir/build.make CMakeFiles/CPP__CoupGAME_a.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Test.o: Test.cpp.o
+
+.PHONY : Test.o
+
+# target to build an object file
+Test.cpp.o:
+	$(MAKE) -f CMakeFiles/CPP__CoupGAME_a.dir/build.make CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.o
+.PHONY : Test.cpp.o
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles/CPP__CoupGAME_a.dir/build.make CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles/CPP__CoupGAME_a.dir/build.make CMakeFiles/CPP__CoupGAME_a.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +399,9 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 .PHONY : help
 
 

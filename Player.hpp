@@ -6,13 +6,15 @@
 #define CPP__COUPGAME_A_PLAYER_HPP
 #include <iostream>
 #include "Game.hpp"
+using namespace coup;
+//#include "Game.hpp"
 class Player {
 protected:
     int coin;
-    coup::Game game;
+    Game game;
     std::string name;
 public:
-    Player(coup::Game &game, const std::string &name);
+    Player(Game &game, const std::string &name);
     int coins() const;
     void income();
     void foreign_aid();

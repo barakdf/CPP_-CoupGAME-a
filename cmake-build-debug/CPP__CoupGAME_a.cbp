@@ -127,6 +127,9 @@
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Player.hpp">
 			<Option target="CPP__CoupGAME_a"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/Test.cpp">
+			<Option target="CPP__CoupGAME_a"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/barak/Documents/GitHub/CPP_ CoupGAME-a/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
