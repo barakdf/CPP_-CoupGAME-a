@@ -25,10 +25,6 @@ void Player::foreign_aid() {
     this->coin += 2;
 }
 
-std::string Player::role() const {
-    return nullptr;
-}
-
 void Player::coup(const Player &target) {
     this->game.coup_player(target.get_name());
 }
